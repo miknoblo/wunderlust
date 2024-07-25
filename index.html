@@ -11,10 +11,14 @@
     <header>
         <h1>Wunderlust Travel</h1>
         <picture>
-            <source media="(min-width: 1264px)" srcset="images/logo-L.png">
-            <source media="(max-width: 900px)" srcset="images/logo-M.png">
-            <source media="(max-width: 675px)" srcset="images/logo-S.png">
-            <img src="images/logo-S.png" alt="Wunderlust logo">
+            <img 
+                alt="Wunderlust logo" 
+                srcset="
+                images/logo-S.png 320w,
+                images/logo-M.png 780w,
+                images/logo-L.png 1024w
+                "
+            >
         </picture>
         <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
         <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
